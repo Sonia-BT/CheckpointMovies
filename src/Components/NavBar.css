@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  background-color: purple;
+}
+
+.Div_NavBar {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 35px;
+  list-style: none;
+}
+
+.ItemNav {
+  border: solid 1px black;
+  width: 30%;
+  text-decoration: none;
+}
+.SearchMovie {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+input {
+  outline: none;
+  margin-left: 50%;
+  width: 50%;
+}
+.SearchButton {
+  width: 15%;
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.ListMovies {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.MovieCard {
+  border: 1px solid red;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+.PosterMovie {
+  display: flex;
+  justify-content: center;
+  border: solid 1px;
+  height: 45vh;
+  width: 30%;
+}
+
+.InfosMovie {
+  border: solid 1px;
+  display: flex;
+  height: 25vh;
+  width: 30%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.TitleMovie {
+  border: 1px solid;
+  height: 11vh;
+}
+
+.Infos {
+  display: flex;
+  height: 12vh;
+  border: solid 1px black;
+}
+
+.Item {
+  border: solid 1px blue;
+  height: 11vh;
+  width: 30%;
+}
